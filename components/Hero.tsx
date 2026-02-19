@@ -20,7 +20,7 @@ export default function Hero() {
 
       {/* Frosted glass card */}
       <div className="relative z-20 mx-6 animate-fade-in">
-        <div className=" backdrop-blur-md rounded-[64px] px-12 py-14 max-w-md text-center">
+        <div className=" backdrop-blur-xs rounded-[64px] px-12 py-14 max-w-md text-center mb-[30%] lg:mb-[40%]">
           {/* Eyebrow */}
           <p className="font-dm-sans text-xs tracking-[0.2em] uppercase text-sage mb-6">
             Terapia &amp; Benessere
@@ -34,8 +34,8 @@ export default function Hero() {
 
           {/* Subheading */}
           <p className="font-dm-sans text-sm leading-relaxed text-forest/70 mb-8">
-            Non devi affrontarlo da solo. La terapia è uno spazio per rallentare,
-            ritrovarti e trovare la tua strada.
+            Non devi affrontarlo da solo. La terapia è uno spazio per
+            rallentare, ritrovarti e trovare la tua strada.
           </p>
 
           {/* CTA */}
